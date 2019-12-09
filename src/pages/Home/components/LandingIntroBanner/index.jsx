@@ -24,7 +24,7 @@ export default function LandingIntroBanner() {
             className={styles.landingIntroBannerButtons}
             style={{ textAlign: 'center', marginTop: 70 }}
           >
-            <a href="//eth.xchainunion.com" target="_blank" rel="noopener noreferrer" className={styles.leftButton}>
+            <a href="http://eth.xchainunion.com:8090" target="_blank" rel="noopener noreferrer" className={styles.leftButton}>
               <Button
                 style={{
                   height: 50,
@@ -38,7 +38,7 @@ export default function LandingIntroBanner() {
                 以太坊
               </Button>
             </a>
-            <a href="http://ftchain.xchainunion.com:8083" target="_blank" rel="noopener noreferrer">
+            <a href="http://ftchain.xchainunion.com:8090" target="_blank" rel="noopener noreferrer">
               <Button
                 style={{
                   height: 50,
@@ -52,7 +52,7 @@ export default function LandingIntroBanner() {
                 FT公链
               </Button>
             </a>
-            <a href="http://hyperchain.xchainunion.com:8082" target="_blank" rel="noopener noreferrer">
+            <a href="http://hyperchain.xchainunion.com:8090" target="_blank" rel="noopener noreferrer">
               <Button
                 style={{
                   height: 50,
