@@ -38,7 +38,7 @@ export default function LandingIntroBanner() {
                 以太坊
               </Button>
             </a>
-            <a href="//ftchain.xchainunion.com:8081" target="_blank" rel="noopener noreferrer">
+            <a href="//ftchain.xchainunion.com:8083" target="_blank" rel="noopener noreferrer">
               <Button
                 style={{
                   height: 50,
