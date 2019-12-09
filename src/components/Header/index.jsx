@@ -3,22 +3,22 @@ import Logo from '../Logo';
 import styles from './index.module.scss';
 
 const MENUS = [
-  {
-    name: 'API服务',
-    path: '#apiservice',
-  },
-  {
-    name: 'DApp外包',
-    path: '#dapp',
-  },
-  {
-    name: '解决方案',
-    path: '#solution',
-  },
-  {
-    name: '链学堂',
-    path: '#chainschool',
-  },
+  // {
+  //   name: 'API服务',
+  //   path: '#apiservice',
+  // },
+  // {
+  //   name: 'DApp外包',
+  //   path: '#dapp',
+  // },
+  // {
+  //   name: '解决方案',
+  //   path: '#solution',
+  // },
+  // {
+  //   name: '链学堂',
+  //   path: '#chainschool',
+  // },
 ];
 
 export default function Header() {
