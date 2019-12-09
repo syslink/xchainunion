@@ -1,0 +1,110 @@
+{
+  "name": "@icedesign/website-homepage-scaffold",
+  "version": "1.0.0",
+  "description": "该模板适用于产品类的首页介绍，默认内置一个页面和五个不同风格的展示区块",
+  "files": [
+    "src/",
+    "build/",
+    "public/",
+    "tests/",
+    "_gitignore",
+    "_editorconfig",
+    "_eslintignore",
+    "_eslintrc.js",
+    "_stylelintignore",
+    "_stylelintrc.js",
+    "ice.config.js"
+  ],
+  "scripts": {
+    "start": "ice-scripts dev",
+    "build": "ice-scripts build",
+    "prepublishOnly": "npm run build",
+    "lint": "npm run eslint && npm run stylelint",
+    "eslint": "eslint --cache --ext .js,.jsx ./",
+    "stylelint": "stylelint ./**/*.scss"
+  },
+  "dependencies": {
+    "@alifd/next": "^1.x",
+    "@icedesign/container": "^1.x",
+    "@icedesign/foundation-symbol": "^1.x",
+    "@icedesign/img": "^1.x",
+    "@icedesign/layout": "^1.x",
+    "@icedesign/theme": "^1.x",
+    "chart.js": "^2.9.2",
+    "classnames": "^2.2.5",
+    "enquire-js": "^0.1.2",
+    "fractal-web3": "^1.1.21",
+    "moment": "^2.23.0",
+    "prop-types": "^15.5.8",
+    "react": "^16.4.1",
+    "react-chartjs-2": "^2.8.0",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.2.2",
+    "bignumber.js": "^8.0.2",
+    "bizcharts": "^3.4.4",
+    "bs58": "^4.0.1",
+    "copy-to-clipboard": "^3.0.8",
+    "eth-crypto": "^1.3.2",
+    "ethereumjs-abi": "^0.6.8",
+    "ethereumjs-util": "^6.1.0",
+    "ethers": "^4.0.27",
+    "foundation-symbol": "^0.1.0",
+    "fractal_solidity_js": "^1.0.0",
+    "history": "^4.7.2",
+    "hoist-non-react-statics": "^2.5.5",
+    "invariant": "^2.2.4",
+    "json-format-highlight": "^1.0.1",
+    "lodash": "^4.17.10",
+    "material-ui": "^0.20.2",
+    "merkle": "^0.6.0",
+    "merkletreejs": "^0.0.22",
+    "monaco-editor": "^0.16.0",
+    "monaco-editor-webpack-plugin": "^1.7.0",
+    "path-to-regexp": "^2.2.1",
+    "react-autocomplete": "^1.8.1",
+    "react-cookies": "^0.1.0",
+    "react-json-view": "^1.19.1",
+    "react-localstorage": "^1.0.0",
+    "react-monaco-editor": "^0.25.1",
+    "react-redux": "^5.0.7",
+    "react-router-redux": "5.0.0-alpha.6",
+    "react-transition-group": "^2.4.0",
+    "redux": "3.6.0",
+    "redux-thunk": "^2.3.0",
+    "rlp": "^2.2.2"
+  },
+  "devDependencies": {
+    "@ice/spec": "^0.1.1",
+    "eslint": "^6.0.1",
+    "stylelint": "^10.1.0",
+    "ice-scripts": "^2.0.0",
+    "ice-plugin-fusion": "^0.1.4",
+    "ice-plugin-moment-locales": "^0.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scaffoldConfig": {
+    "builder": "ice-scripts",
+    "name": "ice-website-homepage",
+    "title": "链和官网",
+    "categories": [
+      "官网模板"
+    ],
+    "screenshot": "https://img.alicdn.com/tfs/TB1PgGdJAvoK1RjSZFNXXcxMVXa-2860-1580.png",
+    "screenshots": [
+      "https://img.alicdn.com/tfs/TB1PgGdJAvoK1RjSZFNXXcxMVXa-2860-1580.png",
+      "https://img.alicdn.com/tfs/TB16wmkJxjaK1RjSZFAXXbdLFXa-2860-1580.png"
+    ]
+  },
+  "iceworks": {
+    "type": "react",
+    "adapter": "adapter-react-v2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ice-lab/react-materials/tree/master/scaffolds/ice-website-homepage"
+  },
+  "title": "xchainide"
+}
