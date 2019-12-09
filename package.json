@@ -33,7 +33,6 @@
     "chart.js": "^2.9.2",
     "classnames": "^2.2.5",
     "enquire-js": "^0.1.2",
-    "fractal-web3": "^1.1.21",
     "moment": "^2.23.0",
     "prop-types": "^15.5.8",
     "react": "^16.4.1",
