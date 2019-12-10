@@ -74,7 +74,7 @@ export default function LandingIntroBanner() {
             </a>
           </div>
           {
-          !isMobile ? '' : <h2 className={styles.tooltip}>(以上各链的IDE需在PC上体验)</h2>
+          !isMobile ? '' : <h2 className={styles.tooltip}>以上各链的IDE需在PC上体验<br/>（地址:http://xchainunion.com:8090）</h2>
           }
         </div>
       </div>
