@@ -30,19 +30,19 @@ export default function FeatureList() {
             <img
               src={require('./images/aragonLogo.jpg')}
               alt=""
-              style={{ width: 90, height: 73 }}
+              style={{ width: 86, height: 85 }}
             />
             <h4 className={styles.featureTitle}>Aragon</h4>
-            <p className={styles.featureDesc}>DAO定制平台 降低运营成本</p>
+            <p className={styles.featureDesc}>DAO定制平台</p>
           </div>
           <div className={styles.featureItem}>
             <img
               src={require('./images/fundLogo.jpg')}
               alt=""
-              style={{ width: 100, height: 68 }}
+              style={{ width: 110, height: 85 }}
             />
             <h4 className={styles.featureTitle}>FutureFund</h4>
-            <p className={styles.featureDesc}>去中心化 可信任</p>
+            <p className={styles.featureDesc}>未来金融解决方案</p>
           </div>
         </div>
         <div className={styles.extraInfo}>
