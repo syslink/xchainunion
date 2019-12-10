@@ -22,7 +22,7 @@
 }
 
 .titleHighlightLine {
-  width: 33px;
+  width: 150px;
   height: 2px;
   background: $color-brand1-6;
 }
@@ -33,15 +33,32 @@
   margin-right: 90px;
 }
 
+.mProductInfo {
+  width: 200px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
 .title {
   color: #223c4e;
   font-size: 36px;
+}
+.mTitle {
+  color: #223c4e;
+  font-size: 24px;
 }
 
 .desc {
   margin-top: 24px;
   color: #6d7a82;
   font-size: 16px;
+  line-height: 1.5;
+}
+
+.mDesc {
+  margin-top: 12px;
+  color: #6d7a82;
+  font-size: 12px;
   line-height: 1.5;
 }
 
