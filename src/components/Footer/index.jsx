@@ -25,7 +25,7 @@ export default () => {
           textAlign: 'right',
         }}
       >
-        链合组织
+        Sam Yu (wx:7135202)
         <br />
         © 2019 版权所有
       </div>
