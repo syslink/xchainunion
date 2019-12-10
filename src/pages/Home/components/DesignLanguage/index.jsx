@@ -24,7 +24,7 @@ export default function FeatureList() {
               style={{ width: 86, height: 85 }}
             />
             <h4 className={styles.featureTitle}>AI足球大师</h4>
-            <p className={styles.featureDesc}>AI与区块链融合的经典案例</p>
+            <p className={styles.featureDesc}>AI与区块链的融合</p>
           </div>
           <div className={styles.featureItem}>
             <img
@@ -41,7 +41,7 @@ export default function FeatureList() {
               alt=""
               style={{ width: 110, height: 85 }}
             />
-            <h4 className={styles.featureTitle}>FutureFund</h4>
+            <h4 className={styles.featureTitle}>FFund</h4>
             <p className={styles.featureDesc}>未来金融解决方案</p>
           </div>
         </div>
