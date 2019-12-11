@@ -29,7 +29,7 @@ export default function LandingIntroBanner() {
             className={styles.landingIntroBannerButtons}
             style={{ textAlign: 'center', marginTop: 70 }}
           >
-            <a href={!isMobile ? "http://eth.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer" className={styles.leftButton}>
+            <a href={!isMobile ? "http://eth.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
               <Button
                 style={!isMobile ?  {
                                       height: 50,
@@ -41,20 +41,6 @@ export default function LandingIntroBanner() {
                 type="primary"
               >
                 以太坊
-              </Button>
-            </a>
-            <a href={!isMobile ? "http://ftchain.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
-              <Button
-                style={!isMobile ?  {
-                                      height: 50,
-                                      padding: '0 58px',
-                                      fontSize: 16,
-                                      marginBottom: '20px',
-                                    } : {}}
-                type="primary"
-                size="large"
-              >
-                FT公链
               </Button>
             </a>
             <a href={!isMobile ? "http://hyperchain.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
@@ -70,6 +56,36 @@ export default function LandingIntroBanner() {
                 size="large"
               >
                 趣链
+              </Button>
+            </a>
+            <a href={!isMobile ? "http://ftchain.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
+              <Button
+                style={!isMobile ?  {
+                                      height: 50,
+                                      padding: '0 58px',
+                                      fontSize: 16,
+                                      marginBottom: '20px',
+                                      marginLeft: '20px',
+                                    } : {marginLeft: '20px'}}
+                type="primary"
+                size="large"
+              >
+                FT公链
+              </Button>
+            </a>
+            <a href={!isMobile ? "http://polkadot.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
+              <Button
+                style={!isMobile ?  {
+                                      height: 50,
+                                      padding: '0 58px',
+                                      fontSize: 16,
+                                      marginBottom: '20px',
+                                      marginLeft: '20px',
+                                    } : {marginLeft: '20px'}}
+                type="primary"
+                size="large"
+              >
+                波卡
               </Button>
             </a>
           </div>
