@@ -1,6 +1,6 @@
-# ice-website-homepage
+# xChainUnion.com
 
-该模板适用于产品类的首页介绍，默认内置一个页面和五个不同风格的展示区块
+区块链一站式开发、学习和分享平台，为开发者提供体验一致的IDE服务
 
 > 使用文档
 
@@ -12,4 +12,4 @@
 
 
 效果图:
-![screenshot](https://img.alicdn.com/tfs/TB1lvtMpQOWBuNjSsppXXXPgpXa-2840-1596.png)
+![screenshot](https://doulaig.oss-cn-hangzhou.aliyuncs.com/10005/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191212230624.png)
