@@ -29,7 +29,7 @@ export default function LandingIntroBanner() {
             className={styles.landingIntroBannerButtons}
             style={{ textAlign: 'center', marginTop: 70 }}
           >
-            <a href={!isMobile ? "http://eth.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://eth.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
               <Button
                 style={!isMobile ?  {
                                       height: 50,
@@ -43,7 +43,7 @@ export default function LandingIntroBanner() {
                 以太坊
               </Button>
             </a>
-            <a href={!isMobile ? "http://hyperchain.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://hyperchain.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
               <Button
                 style={!isMobile ?  {
                                       height: 50,
@@ -58,7 +58,7 @@ export default function LandingIntroBanner() {
                 趣链
               </Button>
             </a>
-            <a href={!isMobile ? "http://ftchain.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://ftchain.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
               <Button
                 style={!isMobile ?  {
                                       height: 50,
@@ -73,7 +73,7 @@ export default function LandingIntroBanner() {
                 FT公链
               </Button>
             </a>
-            <a href={!isMobile ? "http://polkadot.xchainunion.com:8090" : ''} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://polkadot.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
               <Button
                 style={!isMobile ?  {
                                       height: 50,
@@ -90,7 +90,7 @@ export default function LandingIntroBanner() {
             </a>
           </div>
           {
-          !isMobile ? '' : <h2 className={styles.tooltip}>以上各链的IDE需在PC上体验<br/>（地址:http://xChainUnion.com:8090）</h2>
+          !isMobile ? '' : <h2 className={styles.tooltip}>以上各链的IDE需在PC上体验<br/>（地址:http://xChainUnion.com）</h2>
           }
         </div>
       </div>
