@@ -25,7 +25,7 @@ export default () => {
           textAlign: 'right',
         }}
       >
-        Sam Yu (wx:7135202)
+        思凌科技（沪ICP备19046181号-1）
         <br />
         © 2019 版权所有
       </div>
