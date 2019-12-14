@@ -11,7 +11,7 @@ export default function LandingIntroBanner() {
                                                 padding: '0 58px',
                                                 fontSize: 16,
                                                 marginBottom: '20px',
-                                              } : {}}
+                                              } : {marginTop: '10px', width: 80}}
                           size="large"
                           type="primary"
                         >
@@ -24,7 +24,7 @@ export default function LandingIntroBanner() {
                               fontSize: 16,
                               marginBottom: '20px',
                               marginLeft: '20px',
-                            } : {marginLeft: '20px'}}
+                            } : {marginTop: '10px', width: 80}}
                             size="large"
                             type="primary"
                           >
@@ -37,7 +37,7 @@ export default function LandingIntroBanner() {
                                                 fontSize: 16,
                                                 marginBottom: '20px',
                                                 marginLeft: '20px',
-                                              } : {marginLeft: '20px'}}
+                                              } : {marginTop: '10px', width: 80}}
                           type="primary"
                           size="large"
                         >
@@ -50,7 +50,7 @@ export default function LandingIntroBanner() {
                                                       fontSize: 16,
                                                       marginBottom: '20px',
                                                       marginLeft: '20px',
-                                                    } : {marginLeft: '20px'}}
+                                                    } : {marginTop: '10px', width: 80}}
                                 type="primary"
                                 size="large"
                               >
@@ -82,21 +82,28 @@ export default function LandingIntroBanner() {
           >
             <a href={!isMobile ? "http://eth.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ethBtnTrigger} closable={false}>
-                区块链江湖地位仅次于比特币
+                江湖地位仅次于比特币
               </Balloon>              
             </a>
+            {
+              !isMobile ? '' : <br/>
+            }
             <a href={!isMobile ? "http://hyperchain.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={hyperBtnTrigger} closable={false}>
                 陈纯院士领携，开启了联盟链时代
               </Balloon>
             </a>
-            
+            {
+              !isMobile ? '' : <br/>
+            }
             <a href={!isMobile ? "http://ftchain.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ftBtnTrigger} closable={false}>
               以通证经济为核心的未来金融体系基础设施
               </Balloon>
             </a>
-            
+            {
+              !isMobile ? '' : <br/>
+            }
             <a href={!isMobile ? "http://polkadot.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={polkadotBtnTrigger} closable={false}>
                 专为跨连而生

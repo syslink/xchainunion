@@ -39,15 +39,15 @@ export default function ProductIntro() {
         <div className={styles.productSnapshot}>
         {
           !isMobile ? <img
-                        width={696}
-                        height={540}
-                        src={require('./images/ide.png')}
+                        width={590}
+                        height={337}
+                        src={require('./images/idetest.png')}
                         alt=""
                       /> : 
                       <img
-                        width={232}
-                        height={180}
-                        src={require('./images/ide.png')}
+                        width={245}
+                        height={168}
+                        src={require('./images/idetest.png')}
                         alt=""
                       />
         }
