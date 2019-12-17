@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Balloon } from '@alifd/next';
+import { Button, Balloon, Message } from '@alifd/next';
 import styles from './index.module.scss';
 
 export default function LandingIntroBanner() {
@@ -43,7 +43,7 @@ export default function LandingIntroBanner() {
                         >
                           FT公链
                         </Button>;  
-  const polkadotBtnTrigger = <Button
+  const polkadotBtnTrigger = <Button onClick={() => Message.notice('开发中, 敬请期待')}
                                 style={!isMobile ?  {
                                                       height: 50,
                                                       padding: '0 58px',
@@ -98,17 +98,20 @@ export default function LandingIntroBanner() {
             }
             <a href={!isMobile ? "http://ftchain.xchainunion.com" : 'http://ftchain.xchainunion.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ftBtnTrigger} closable={false}>
-              以通证经济为核心的未来金融体系基础设施
+              以通证经济为核心的未来金融体系基础设施，功能强大
               </Balloon>
             </a>
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://polkadot.xchainunion.com" : 'http://polkadot.xchainunion.com'} target="_blank" rel="noopener noreferrer">
+            {/* <a href={!isMobile ? "http://polkadot.xchainunion.com" : 'http://polkadot.xchainunion.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={polkadotBtnTrigger} closable={false}>
-                专为跨连而生
+                Gavin Wood领携，专为跨链而生
               </Balloon>
-            </a>
+            </a> */}
+            <Balloon trigger={polkadotBtnTrigger} closable={false}>
+                Gavin Wood领携，专为跨链而生
+            </Balloon>
           </div>
           {
           !isMobile ? '' : <h2 className={styles.tooltip}>以上各链的IDE适合在PC上体验<br/>（地址:http://xChainUnion.com）</h2>
