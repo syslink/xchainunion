@@ -47,7 +47,7 @@ export default function ProductIntro() {
                       <img
                         className={styles.picPos}
                         width='100%'
-                        height='100%'
+                        height='85%'
                         src={require('./images/idetest.png')}
                         alt=""
                       />
