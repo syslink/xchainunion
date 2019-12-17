@@ -80,7 +80,7 @@ export default function LandingIntroBanner() {
             className={styles.landingIntroBannerButtons}
             style={{ textAlign: 'center', marginTop: 70 }}
           >
-            <a href={!isMobile ? "http://eth.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://eth.xchainunion.com" : 'http://eth.xchainunion.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ethBtnTrigger} closable={false}>
                 江湖地位仅次于比特币
               </Balloon>              
@@ -88,7 +88,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://hyperchain.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://hyperchain.xchainunion.com" : 'http://hyperchain.xchainunion.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={hyperBtnTrigger} closable={false}>
                 陈纯院士领携，开启了联盟链时代
               </Balloon>
@@ -96,7 +96,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://ftchain.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://ftchain.xchainunion.com" : 'http://ftchain.xchainunion.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ftBtnTrigger} closable={false}>
               以通证经济为核心的未来金融体系基础设施
               </Balloon>
@@ -104,14 +104,14 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://polkadot.xchainunion.com" : ''} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://polkadot.xchainunion.com" : 'http://polkadot.xchainunion.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={polkadotBtnTrigger} closable={false}>
                 专为跨连而生
               </Balloon>
             </a>
           </div>
           {
-          !isMobile ? '' : <h2 className={styles.tooltip}>以上各链的IDE需在PC上体验<br/>（地址:http://xChainUnion.com）</h2>
+          !isMobile ? '' : <h2 className={styles.tooltip}>以上各链的IDE适合在PC上体验<br/>（地址:http://xChainUnion.com）</h2>
           }
         </div>
       </div>

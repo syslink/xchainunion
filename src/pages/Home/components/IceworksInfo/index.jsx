@@ -23,7 +23,7 @@ export default function ProductIntro() {
                       </p>
                     </div> :
                     <div className={styles.mProductInfo}>
-                    <h3 className={styles.title}>IDEworks</h3>
+                    <h3 className={styles.mTitle}>IDEworks</h3>
                     <div className={styles.titleLine}>
                       <div className={styles.titleHighlightLine} />
                     </div>
@@ -39,14 +39,15 @@ export default function ProductIntro() {
         <div className={styles.productSnapshot}>
         {
           !isMobile ? <img
-                        width={590}
-                        height={337}
+                        width='100%'
+                        height='100%'
                         src={require('./images/idetest.png')}
                         alt=""
                       /> : 
                       <img
-                        width={245}
-                        height={168}
+                        className={styles.picPos}
+                        width='100%'
+                        height='100%'
                         src={require('./images/idetest.png')}
                         alt=""
                       />

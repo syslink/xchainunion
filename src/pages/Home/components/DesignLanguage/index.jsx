@@ -45,11 +45,11 @@ export default function FeatureList() {
             <p className={styles.featureDesc}>未来金融解决方案</p>
           </div>
         </div>
-        <div className={styles.extraInfo}>
+        {/* <div className={styles.extraInfo}>
           <Link to="">
             <Button type="secondary" className={styles.extraButton}>了解更多 &gt;</Button>
           </Link>
-        </div>
+        </div> */}
       </div>
       <div className={styles.clipBackground} />
     </div>
