@@ -19,8 +19,8 @@ export default function Logo(props) {
     >
       <a href="/" style={{ display: 'block', position: 'relative' }}>
       {
-        !isMobile ? <img src={logo} width="271" height="112" alt="logo" /> :
-                    <img src={logo} width="135" height="56" alt="logo" />
+        !isMobile ? <img src={logo} width="100%" height="100%" alt="logo" /> :
+                    <img src={logo} width="50%" height="50%" alt="logo" />
       }
         
       </a>
