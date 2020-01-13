@@ -56,6 +56,19 @@ export default function LandingIntroBanner() {
                               >
                                 波卡
                               </Button>;
+  const quarkBtnTrigger = <Button
+                                style={!isMobile ?  {
+                                                      height: 50,
+                                                      padding: '0 58px',
+                                                      fontSize: 16,
+                                                      marginBottom: '20px',
+                                                      marginLeft: '20px',
+                                                    } : {marginTop: '10px', width: 80}}
+                                type="primary"
+                                size="large"
+                              >
+                                夸克
+                              </Button>;
   return (
     <div className={styles.landingIntroBanner} style={{ height: '100vh' }}>
       <div
@@ -99,6 +112,14 @@ export default function LandingIntroBanner() {
             <a href={!isMobile ? "http://ftchain.xchainunion.com" : 'http://fractalproject.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ftBtnTrigger} closable={false}>
               以通证经济为核心的未来金融体系基础设施，功能强大
+              </Balloon>
+            </a>
+            {
+              !isMobile ? '' : <br/>
+            }
+            <a href={!isMobile ? "http://quark.xchainunion.com" : 'http://fractalproject.com'} target="_blank" rel="noopener noreferrer">
+              <Balloon trigger={quarkBtnTrigger} closable={false}>
+              支持分片技术，TPS最高可达30万+
               </Balloon>
             </a>
             {
