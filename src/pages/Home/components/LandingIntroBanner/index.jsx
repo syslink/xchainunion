@@ -117,7 +117,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://quark.xchainunion.com" : 'http://fractalproject.com'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "http://quark.xchainunion.com" : 'http://quarkchain.io'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={quarkBtnTrigger} closable={false}>
               支持分片技术，TPS最高可达30万+
               </Balloon>
