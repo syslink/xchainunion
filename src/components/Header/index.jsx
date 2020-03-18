@@ -15,10 +15,14 @@ const MENUS = [
   //   name: '解决方案',
   //   path: '#solution',
   // },
-  // {
-  //   name: '链学堂',
-  //   path: '#chainschool',
-  // },
+  {
+    name: '链学堂',
+    path: '#chainSchool',
+  },
+  {
+    name: '链服务',
+    path: '#chainService',
+  },
 ];
 
 export default function Header() {

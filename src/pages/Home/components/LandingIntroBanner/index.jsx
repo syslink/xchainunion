@@ -93,7 +93,7 @@ export default function LandingIntroBanner() {
             className={styles.landingIntroBannerButtons}
             style={{ textAlign: 'center', marginTop: 70 }}
           >
-            <a href={!isMobile ? "http://eth.xchainunion.com" : 'https://ethereum.org/'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://xchainunion.com/ethIDE" : 'https://ethereum.org/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ethBtnTrigger} closable={false}>
                 江湖地位仅次于比特币
               </Balloon>              
@@ -101,7 +101,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://hyperchain.xchainunion.com" : 'https://www.hyperchain.cn/'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://xchainunion.com/hyperChain" : 'https://www.hyperchain.cn/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={hyperBtnTrigger} closable={false}>
                 陈纯院士领携，开启了联盟链时代
               </Balloon>
@@ -109,7 +109,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://ftchain.xchainunion.com" : 'http://fractalproject.com'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://xchainunion.com/ftChain" : 'http://fractalproject.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ftBtnTrigger} closable={false}>
               以通证经济为核心的未来金融体系基础设施，功能强大
               </Balloon>
@@ -117,7 +117,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://quark.xchainunion.com" : 'http://quarkchain.io'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://xchainunion.com/quark" : 'http://quarkchain.io'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={quarkBtnTrigger} closable={false}>
               支持分片技术，TPS最高可达30万+
               </Balloon>
@@ -125,7 +125,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://polkadot.xchainunion.com" : 'https://polkadot.network/'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://xchainunion.com/polkadot" : 'https://polkadot.network/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={polkadotBtnTrigger} closable={false}>
                 Gavin Wood领携，专为跨链而生
               </Balloon>
