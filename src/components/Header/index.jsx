@@ -4,8 +4,8 @@ import styles from './index.module.scss';
 
 const MENUS = [
   {
-    name: '链学堂',
-    path: '#chainSchool',
+    name: '链论坛',
+    path: '#chainForum',
   },
   {
     name: '链服务',
