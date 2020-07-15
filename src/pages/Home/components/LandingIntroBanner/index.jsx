@@ -139,7 +139,7 @@ export default function LandingIntroBanner() {
               !isMobile ? '' : <br/>
             }
             <a href={!isMobile ? "http://conflux.xchainunion.com/" : 'http://confluxnetwork.org/'} target="_blank" rel="noopener noreferrer">
-              <Balloon trigger={quarkBtnTrigger} closable={false}>
+              <Balloon trigger={confluxBtnTrigger} closable={false}>
               清华“姚班”出品，在保持足够去中心化的前提下，TPS达到了3000+
               </Balloon>
             </a>
