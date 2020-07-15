@@ -69,6 +69,19 @@ export default function LandingIntroBanner() {
                               >
                                 夸克
                               </Button>;
+  const confluxBtnTrigger = <Button
+                                style={!isMobile ?  {
+                                                      height: 50,
+                                                      padding: '0 58px',
+                                                      fontSize: 16,
+                                                      marginBottom: '20px',
+                                                      marginLeft: '20px',
+                                                    } : {marginTop: '10px', width: 80}}
+                                type="primary"
+                                size="large"
+                              >
+                                Conflux
+                              </Button>;
   return (
     <div className={styles.landingIntroBanner} style={{ height: '100vh' }}>
       <div
@@ -125,6 +138,14 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
+            <a href={!isMobile ? "http://conflux.xchainunion.com/" : 'http://confluxnetwork.org/'} target="_blank" rel="noopener noreferrer">
+              <Balloon trigger={quarkBtnTrigger} closable={false}>
+              清华“姚班”出品，在保持足够去中心化的前提下，TPS达到了3000+
+              </Balloon>
+            </a>
+            {
+              !isMobile ? '' : <br/>
+            }
             <a href={!isMobile ? "http://polkadot.xchainunion.com/" : 'https://polkadot.network/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={polkadotBtnTrigger} closable={false}>
                 Gavin Wood领携，专为跨链而生
@@ -132,7 +153,7 @@ export default function LandingIntroBanner() {
             </a>
           </div>
           {
-          !isMobile ? '' : <h2 className={styles.tooltip}>以上各链的IDE需在PC上体验<br/>（地址:http://xChainUnion.com）</h2>
+          !isMobile ? '' : <h2 className={styles.tooltip}>以上各链的IDE需在PC上体验<br/>（地址:https://xChainUnion.com）</h2>
           }
         </div>
       </div>
