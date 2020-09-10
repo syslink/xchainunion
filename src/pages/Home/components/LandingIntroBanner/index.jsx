@@ -106,7 +106,7 @@ export default function LandingIntroBanner() {
             className={styles.landingIntroBannerButtons}
             style={{ textAlign: 'center', marginTop: 70 }}
           >
-            <a href={!isMobile ? "http://eth.xchainunion.com" : 'https://ethereum.org/'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://eth.xchainunion.com" : 'https://ethereum.org/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={ethBtnTrigger} closable={false}>
                 江湖地位仅次于比特币
               </Balloon>              
@@ -114,7 +114,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://hyperchain.xchainunion.com" : 'https://www.hyperchain.cn/'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://hyperchain.xchainunion.com" : 'https://www.hyperchain.cn/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={hyperBtnTrigger} closable={false}>
                 陈纯院士领携，开启了联盟链时代
               </Balloon>
@@ -122,7 +122,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://oexchain.xchainunion.com/" : 'http://oex.com'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://oexchain.xchainunion.com/" : 'https://oex.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={oexBtnTrigger} closable={false}>
               以通证经济为核心的未来金融体系基础设施，专为DeFi而生
               </Balloon>
@@ -130,7 +130,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://quark.xchainunion.com/" : 'http://quarkchain.io'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://quark.xchainunion.com/" : 'http://quarkchain.io'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={quarkBtnTrigger} closable={false}>
               支持分片技术，TPS最高可达30万+
               </Balloon>
@@ -138,7 +138,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://conflux.xchainunion.com/" : 'http://confluxnetwork.org/'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://conflux.xchainunion.com/" : 'http://confluxnetwork.org/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={confluxBtnTrigger} closable={false}>
               清华“姚班”出品，在保持足够去中心化的前提下，TPS达到了3000+
               </Balloon>
@@ -146,7 +146,7 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://polkadot.xchainunion.com/" : 'https://polkadot.network/'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://polkadot.xchainunion.com/" : 'https://polkadot.network/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={polkadotBtnTrigger} closable={false}>
                 Gavin Wood领携，专为跨链而生
               </Balloon>
