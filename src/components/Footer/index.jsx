@@ -1,7 +1,10 @@
 import React from 'react';
 import Logo from '../Logo';
 
+const wxq = require('./images/wxq.jpg');
 export default () => {
+  let u = navigator.userAgent;
+  let isMobile = !!u.match(/AppleWebKit.*Mobile.*/);
   return (
     <div
       style={{
@@ -14,8 +17,11 @@ export default () => {
         justifyContent: 'space-between',
       }}
     >
-      <div style={{ filter: 'grayscale(100%)', opacity: 0.3 }}>
-        <Logo isDark />
+      <div style={{ filter: 'grayscale(100%)', opacity: 0.7 }}>
+        {
+          !isMobile ? <img src={wxq} width="15%" height="15%" alt="微信群" /> :
+                      <img src={wxq} width="10%" height="10%" alt="微信群" />
+        }
       </div>
       <div
         style={{
