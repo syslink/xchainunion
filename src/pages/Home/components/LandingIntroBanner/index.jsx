@@ -30,7 +30,7 @@ export default function LandingIntroBanner() {
                           >
                             趣链
                           </Button>;
-  const ftBtnTrigger = <Button
+  const oexBtnTrigger = <Button
                           style={!isMobile ?  {
                                                 height: 50,
                                                 padding: '0 58px',
@@ -41,7 +41,7 @@ export default function LandingIntroBanner() {
                           type="primary"
                           size="large"
                         >
-                          FT公链
+                          OEX公链
                         </Button>;  
   const polkadotBtnTrigger = <Button
                                 style={!isMobile ?  {
@@ -122,9 +122,9 @@ export default function LandingIntroBanner() {
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "http://ftChain.xchainunion.com/" : 'http://fractalproject.com'} target="_blank" rel="noopener noreferrer">
-              <Balloon trigger={ftBtnTrigger} closable={false}>
-              以通证经济为核心的未来金融体系基础设施，功能强大
+            <a href={!isMobile ? "http://oexchain.xchainunion.com/" : 'http://oex.com'} target="_blank" rel="noopener noreferrer">
+              <Balloon trigger={oexBtnTrigger} closable={false}>
+              以通证经济为核心的未来金融体系基础设施，专为DeFi而生
               </Balloon>
             </a>
             {
