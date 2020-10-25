@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from '../Logo';
 
-const wxq = require('./images/wxq.jpg');
+const wx = require('./images/wechat.jpeg');
 export default () => {
   let u = navigator.userAgent;
   let isMobile = !!u.match(/AppleWebKit.*Mobile.*/);
@@ -19,8 +19,8 @@ export default () => {
     >
       <div style={{ filter: 'grayscale(100%)', opacity: 0.7 }}>
         {
-          !isMobile ? <img src={wxq} width="15%" height="15%" alt="微信群" /> :
-                      <img src={wxq} width="10%" height="10%" alt="微信群" />
+          !isMobile ? <img src={wx} width="15%" height="15%" alt="微信群" /> :
+                      <img src={wx} width="10%" height="10%" alt="微信群" />
         }
       </div>
       <div
