@@ -116,13 +116,13 @@ export default function LandingIntroBanner() {
             }
             <a href={!isMobile ? "https://hyperchain.xchainunion.com" : 'https://www.hyperchain.cn/'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={hyperBtnTrigger} closable={false}>
-                陈纯院士领携，开启了联盟链时代
+                国内领先的联盟链
               </Balloon>
             </a>
             {
               !isMobile ? '' : <br/>
             }
-            <a href={!isMobile ? "https://oexchain.xchainunion.com/" : 'https://oex.com'} target="_blank" rel="noopener noreferrer">
+            <a href={!isMobile ? "https://oex.xchainunion.com/" : 'https://oexchain.com'} target="_blank" rel="noopener noreferrer">
               <Balloon trigger={oexBtnTrigger} closable={false}>
               以通证经济为核心的未来金融体系基础设施，专为DeFi而生
               </Balloon>
